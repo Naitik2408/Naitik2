@@ -21,7 +21,7 @@ export default function Home() {
               I don't just build websites or write code—I solve business problems. Whether you need to overcome a specific operational hurdle or accelerate a successful business, my goal is to understand your unique challenges and deliver the right tech solutions to help you grow.
             </p>
             <div className="flex gap-4">
-              <a href="/resume.pdf" download="Naitik_Kumar_CV.pdf" className="px-6 py-3 font-medium transition-colors duration-200 flex items-center justify-center text-center bg-[#165a4a] text-white hover:bg-[#104236]">
+              <a href="/Naitik_resume.pdf" download="Naitik_resume.pdf" className="px-6 py-3 font-medium transition-colors duration-200 flex items-center justify-center text-center bg-[#165a4a] text-white hover:bg-[#104236]">
                 Resume ↘
               </a>
               <Button href="#projects" variant="secondary">View Projects</Button>
