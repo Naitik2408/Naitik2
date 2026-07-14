@@ -24,19 +24,33 @@ export default function LiftMyGradeProject() {
             </div>
 
             <section>
-              <h2 className="text-3xl font-bold mb-6 text-gray-800">The Problem We Solved</h2>
+              <h2 className="text-3xl font-bold mb-6 text-gray-800">1. The Problem</h2>
               <p className="text-gray-600 leading-relaxed text-lg">
                 LiftMyGrade isn't just a standard educational website—it's a targeted solution designed to tackle the real-world problem of student disengagement and falling grades. We focused on building a platform that provides actionable insights, dynamic learning paths, and personalized grade tracking to genuinely boost academic performance.
               </p>
             </section>
 
             <section>
-              <h2 className="text-3xl font-bold mb-6 text-gray-800">Development Challenges</h2>
+              <h2 className="text-3xl font-bold mb-6 text-gray-800">2. How We Solved Problems and Bugs</h2>
               <p className="text-gray-600 leading-relaxed text-lg">
                 The primary challenge was ensuring the interface felt alive and intuitive to keep students engaged rather than overwhelmed. We had to build a fluid, highly responsive user experience with complex data validation running seamlessly under the hood.
               </p>
               <p className="text-gray-600 leading-relaxed text-lg mt-4">
                 Handling robust form validations for student data, orchestrating smooth page transitions to reduce cognitive load, and integrating a reliable email communication system for instant alerts were critical hurdles we overcame to make the platform truly effective.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-3xl font-bold mb-6 text-gray-800">3. Lessons Learned</h2>
+              <p className="text-gray-600 leading-relaxed text-lg">
+                Learned the intricacies of creating an accessible and highly engaging UI with GSAP and Framer Motion without sacrificing performance. Managing complex form states with React Hook Form and Zod highlighted the importance of robust client-side validation for seamless user experience.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-3xl font-bold mb-6 text-gray-800">4. Performance Optimization</h2>
+              <p className="text-gray-600 leading-relaxed text-lg">
+                Leveraged Next.js App Router for Server-Side Rendering (SSR) and Static Site Generation (SSG), significantly boosting SEO and initial load times. Optimized animation performance by using hardware-accelerated CSS properties and controlling animation playback based on viewport visibility.
               </p>
             </section>
 

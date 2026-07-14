@@ -24,19 +24,33 @@ export default function TipTopProject() {
             </div>
 
             <section>
-              <h2 className="text-3xl font-bold mb-6 text-gray-800">The Problem We Solved</h2>
+              <h2 className="text-3xl font-bold mb-6 text-gray-800">1. The Problem</h2>
               <p className="text-gray-600 leading-relaxed text-lg">
                 The Tip-Top is a comprehensive, full-stack restaurant management and food delivery solution. Instead of just creating a digital menu, we engineered a system that solves critical operational bottlenecks for the restaurant business—streamlining order management, tracking deliveries in real-time, and providing a powerful admin dashboard to analyze growth and performance.
               </p>
             </section>
 
             <section>
-              <h2 className="text-3xl font-bold mb-6 text-gray-800">Development Challenges</h2>
+              <h2 className="text-3xl font-bold mb-6 text-gray-800">2. How We Solved Problems and Bugs</h2>
               <p className="text-gray-600 leading-relaxed text-lg">
                 A major operational hurdle for restaurants is syncing the kitchen, delivery drivers, and customers seamlessly. To solve this, we implemented a robust real-time bidirectional communication system using WebSockets. 
               </p>
               <p className="text-gray-600 leading-relaxed text-lg mt-4">
                 We had to handle complex state management across a customized admin dashboard that tracks sales via interactive charts, manages dynamic calendars for reservations, and secures user data with strict authentication layers. Ensuring high availability and secure API endpoints while maintaining a blazing-fast admin interface was paramount to the project's success.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-3xl font-bold mb-6 text-gray-800">3. Lessons Learned</h2>
+              <p className="text-gray-600 leading-relaxed text-lg">
+                Gained deep insights into managing WebSocket connections at scale and optimizing React renders for real-time dashboards. Architecting the application to handle high-concurrency order placements taught us the importance of reliable message queues and efficient database indexing.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-3xl font-bold mb-6 text-gray-800">4. Performance Optimization</h2>
+              <p className="text-gray-600 leading-relaxed text-lg">
+                Implemented memoization (useMemo, useCallback) and code-splitting to ensure a blazing-fast admin interface despite heavy charting data. Used database indexing and aggregation pipelines in MongoDB to speed up complex analytical queries for the dashboard.
               </p>
             </section>
 
